@@ -1,40 +1,28 @@
+import { social } from "@/lib/socials";
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export function Footer() {
   const navigation = {
     programs: [
-      { name: "Mathematics", href: "#" },
-      { name: "Physics", href: "#" },
-      { name: "Informatics", href: "#" },
-      { name: "Artificial Intelligence", href: "#" },
+      {
+        name: "Mathematics",
+        href: "https://rwandamathcompetition.netlify.app",
+      },
+      { name: "Physics", href: "https://rwpho.org" },
+      { name: "Computing", href: "https://www.rwandacomputing.org/" },
     ],
     about: [
       { name: "About ROP", href: "#about" },
-      { name: "Our Team", href: "#" },
-      { name: "Partners", href: "#partners" },
+      { name: "Sponsors", href: "#sponsors" },
       { name: "News", href: "#news" },
     ],
     resources: [
-      { name: "Training Materials", href: "#" },
-      { name: "Past Papers", href: "#" },
       { name: "Success Stories", href: "#" },
       { name: "FAQ", href: "#" },
     ],
-    legal: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Code of Conduct", href: "#" },
-    ],
+    legal: [{ name: "Code of Conduct", href: "#" }],
   };
-
-  const social = [
-    { name: "Facebook", icon: Facebook, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
-    { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "Instagram", icon: Instagram, href: "#" },
-  ];
 
   return (
     <footer className="bg-[#0C1E33] text-white">
@@ -142,15 +130,7 @@ export function Footer() {
           </div>
         </div>
         <p className="text-sm text-gray-400 text-center mt-4">
-          Built with ❤️ by{" "}
-          <Link
-            href="https://github.com/Ndevu12"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            Ndevu
-          </Link>
+          Built with love by Rwanda Olympiad Program Tech Team
         </p>
       </div>
     </footer>

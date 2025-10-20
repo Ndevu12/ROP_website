@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { social } from "@/lib/socials";
+import Link from "next/link";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -158,6 +160,20 @@ export function Contact() {
                     <div className="font-semibold text-[#0C1E33]">Location</div>
                     <div className="text-gray-600">Kigali, Rwanda</div>
                   </div>
+                </div>
+
+                {/* Social Media Links */}
+                <div className="flex gap-4">
+                  {social.map((item) => (
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      className="text-gray-400 hover:text-white transition-colors"
+                    >
+                      <span className="sr-only">{item.name}</span>
+                      <item.icon className="h-5 w-5" aria-hidden="true" />
+                    </Link>
+                  ))}
                 </div>
               </div>
             </div>
