@@ -14,7 +14,7 @@ export function Footer() {
     ],
     about: [
       { name: "About ROP", href: "#about" },
-      { name: "Sponsors", href: "#sponsors" },
+      { name: "Sponsors", href: "#partners" },
       { name: "News", href: "#news" },
     ],
     resources: [
