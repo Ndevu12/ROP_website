@@ -30,7 +30,7 @@ export function FAQ() {
     {
       question: "Are there any fees to participate?",
       answer:
-        "Most ROP programs are free or heavily subsidized thanks to our generous sponsors and partners. We believe in providing equal opportunities to all talented students regardless of their financial background. Some advanced training camps may have minimal fees to cover accommodation and materials.",
+        "ROP programs are free, thanks to our generous sponsors and partners. We believe in providing equal opportunities to all talented students regardless of their financial background or any other circumstances.",
     },
     {
       question: "What are the benefits of participating in Olympiad programs?",
@@ -45,7 +45,7 @@ export function FAQ() {
     {
       question: "How are students selected for international competitions?",
       answer:
-        "Students are selected through a rigorous process starting with school-level competitions, followed by district and national competitions. Top performers in national Olympiads are invited to intensive training camps, after which the best performers are selected to represent Rwanda at international competitions.",
+        "Students are selected through a rigorous process starting with school-level competitions, followed by bootcamps and selection tests. Top performers in bootcamps are invited to intensive training camps, after which the best performers are selected to represent Rwanda at international competitions.",
     },
     {
       question: "What support does ROP provide for international competitions?",
