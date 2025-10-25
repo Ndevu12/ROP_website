@@ -4,7 +4,11 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="mt-4 relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0C1E33] via-[#0C1E33] to-[#065F46] text-white overflow-hidden">
+    <section
+      id="home"
+      aria-label="Rwanda Olympiad Program Hero Section"
+      className="mt-4 relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0C1E33] via-[#0C1E33] to-[#065F46] text-white overflow-hidden"
+    >
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-[#0891B2] rounded-full blur-3xl" />
