@@ -18,10 +18,10 @@ export function Footer() {
       { name: "News", href: "#news" },
     ],
     resources: [
-      { name: "Success Stories", href: "#" },
-      { name: "FAQ", href: "#" },
+      { name: "Success Stories", href: "#success-stories" },
+      { name: "FAQ", href: "#faq" },
     ],
-    legal: [{ name: "Code of Conduct", href: "#" }],
+    legal: [{ name: "Code of Conduct", href: "/code-of-conduct" }],
   };
 
   return (

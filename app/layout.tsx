@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Rwanda Olympiad Program | Nurturing Rwanda's Future Innovators",
   description:
     "The national umbrella organization coordinating Mathematics, Physics, Informatics, and AI Olympiads in Rwanda",
-  generator: "v0.app",
+  generator: "https://www.github.com/Ndevu12",
 };
 
 export default function RootLayout({
